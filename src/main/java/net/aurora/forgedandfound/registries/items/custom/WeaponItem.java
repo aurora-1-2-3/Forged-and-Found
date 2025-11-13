@@ -1,5 +1,6 @@
 package net.aurora.forgedandfound.registries.items.custom;
 
+import net.aurora.forgedandfound.registries.attributes.FAFAttributes;
 import net.aurora.forgedandfound.util.FAFUtility;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlotGroup;
@@ -33,6 +34,7 @@ public class WeaponItem extends SwordItem {
 
     @Override
     public AABB getSweepHitBox(ItemStack itemStack, Player player, Entity target) {
+        // 0.25D is default
         double sweepRange = this.sweepHitbox;
         return target.getBoundingBox().inflate(sweepRange*4, sweepRange, sweepRange*4);
     }

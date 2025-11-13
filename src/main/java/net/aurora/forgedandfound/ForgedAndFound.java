@@ -2,6 +2,7 @@ package net.aurora.forgedandfound;
 
 import net.aurora.forgedandfound.registries.attributes.FAFAttributes;
 import net.aurora.forgedandfound.registries.components.FAFDataComponents;
+import net.aurora.forgedandfound.registries.creative.tabs.FAFCreativeModeTabs;
 import net.aurora.forgedandfound.registries.items.FAFItems;
 import org.slf4j.Logger;
 
@@ -25,7 +26,8 @@ public class ForgedAndFound {
     static final List<DeferredRegister<?>> REGISTERS = List.of(
             FAFItems.REGISTRY,
             FAFDataComponents.REGISTRY,
-            FAFAttributes.REGISTRY
+            FAFAttributes.REGISTRY,
+            FAFCreativeModeTabs.REGISTRY
     );
 
 
