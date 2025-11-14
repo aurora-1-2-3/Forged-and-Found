@@ -1,9 +1,11 @@
 package net.aurora.forgedandfound.datagen;
 
 import net.aurora.forgedandfound.ForgedAndFound;
+import net.aurora.forgedandfound.registries.items.FAFItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -17,10 +19,23 @@ public class FAFRecipeProvider extends RecipeProvider implements IConditionBuild
         super(output, registries);
     }
 
-
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
         // code shit here
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FAFItems.DIAMOND_SAI.get())
+                .pattern(" D")
+                .pattern("S ")
+                .define('S', Items.STICK)
+                .define('D', Items.DIAMOND)
+                .unlockedBy("has_diamond", has(Items.DIAMOND)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FAFItems.DIAMOND_DAGGER.get())
+                .pattern("D")
+                .pattern("S")
+                .define('S', Items.STICK)
+                .define('D', Items.DIAMOND)
+                .unlockedBy("has_diamond", has(Items.DIAMOND)).save(recipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

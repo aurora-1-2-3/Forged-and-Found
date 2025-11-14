@@ -2,6 +2,7 @@ package net.aurora.forgedandfound.datagen;
 
 
 import net.aurora.forgedandfound.ForgedAndFound;
+import net.aurora.forgedandfound.registries.items.FAFItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -17,8 +18,8 @@ import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.LinkedHashMap;
 
-public class FAFItemProvider extends ItemModelProvider {
-    public FAFItemProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+public class FAFItemModelProvider extends ItemModelProvider {
+    public FAFItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, ForgedAndFound.MOD_ID, existingFileHelper);
     }
 
@@ -39,6 +40,12 @@ public class FAFItemProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // code shit here
+        handheldItem(FAFItems.DIAMOND_DAGGER);
+        handheldItem(FAFItems.DIAMOND_SAI);
+        handheldItem(FAFItems.DIAMOND_KATANA);
+        handheldItem(FAFItems.DIAMOND_FRYING_PAN);
+        handheldItem(FAFItems.DIAMOND_SICKLE);
+        handheldItem(FAFItems.DIAMOND_BAT);
     }
 
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {

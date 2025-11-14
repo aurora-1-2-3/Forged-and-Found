@@ -29,6 +29,6 @@ public class DataGenerators {
         BlockTagsProvider blockTagsProvider = new FAFBlockTagProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new FAFItemTagProvider(packOutput,  lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeClient(), new FAFItemProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new FAFItemModelProvider(packOutput, existingFileHelper));
     }
 }

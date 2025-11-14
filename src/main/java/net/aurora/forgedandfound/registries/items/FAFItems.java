@@ -15,20 +15,28 @@ public class FAFItems {
             () -> new BaculusItem(Tiers.DIAMOND, new Item.Properties()
                     .attributes(BaculusItem.createAttributes(Tiers.DIAMOND, 3, -2f, 3, 0.5f)), 0.50D));
 
+    // Bat
+    public static final DeferredItem<BatItem> DIAMOND_BAT = REGISTRY.register("diamond_bat",
+            () -> new BatItem(Tiers.DIAMOND, new Item.Properties()));
+
     // Dagger
     public static final DeferredItem<DaggerItem> DIAMOND_DAGGER = REGISTRY.register("diamond_dagger",
             () -> new DaggerItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(DaggerItem.createAttributes(Tiers.DIAMOND, 2, -1.5f,1))));
+                    .attributes(DaggerItem.createAttributes(Tiers.DIAMOND, 1, -1.5f,-3))));
+
+    // Frying Pan
+    public static final DeferredItem<FryingPanItem> DIAMOND_FRYING_PAN = REGISTRY.register("diamond_frying_pan",
+            () -> new FryingPanItem(Tiers.DIAMOND, new Item.Properties()));
 
     // Glaive
     public static final DeferredItem<GlaiveItem> DIAMOND_GLAIVE = REGISTRY.register("diamond_glaive",
             () -> new GlaiveItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(GlaiveItem.createAttributes(Tiers.DIAMOND, 3, -3f,4, 0.4f)), 1.25D));
+                    .attributes(GlaiveItem.createAttributes(Tiers.DIAMOND, 3, -3f,3.5, 0.4f)), 1.25D));
 
     // Halberd
     public static final DeferredItem<HalberdItem> DIAMOND_HALBERD = REGISTRY.register("diamond_halberd",
             () -> new HalberdItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(HalberdItem.createAttributes(Tiers.DIAMOND, 5, -4f, 4, 0.5f)), 0.75D));
+                    .attributes(HalberdItem.createAttributes(Tiers.DIAMOND, 5, -4f, 3.5, 0.5f)), 0.75D));
 
     // Kalix
     public static final DeferredItem<KalixItem> DIAMOND_KALIX = REGISTRY.register("diamond_kalix",
@@ -48,17 +56,21 @@ public class FAFItems {
     // Sai
     public static final DeferredItem<SaiItem> DIAMOND_SAI = REGISTRY.register("diamond_sai",
             () -> new SaiItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(SaiItem.createAttributes(Tiers.DIAMOND, 1, -1.5f, 2))));
+                    .attributes(SaiItem.createAttributes(Tiers.DIAMOND, 1, -1.5f, -2))));
 
     // Scythe
     public static final DeferredItem<ScytheItem> DIAMOND_SCYTHE = REGISTRY.register("diamond_scythe",
             () -> new ScytheItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(ScytheItem.createAttributes(Tiers.DIAMOND, 3, -3.5f,4, 0.7f)), 1.0D));
+                    .attributes(ScytheItem.createAttributes(Tiers.DIAMOND, 3, -3.5f,3.5, 0.7f)), 1.0D));
+
+    // Sickle
+    public static final DeferredItem<SickleItem> DIAMOND_SICKLE = REGISTRY.register("diamond_sickle",
+            () -> new SickleItem(Tiers.DIAMOND, new Item.Properties()));
 
     // Spear
     public static final DeferredItem<SpearItem> DIAMOND_SPEAR = REGISTRY.register("diamond_spear",
             () -> new SpearItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(SpearItem.createAttributes(Tiers.DIAMOND, 4, -3.5f, 4))));
+                    .attributes(SpearItem.createAttributes(Tiers.DIAMOND, 4, -3.5f, 3.5))));
 
     // Zweihander
     public static final DeferredItem<ZweihanderItem> DIAMOND_ZWEIHANDER = REGISTRY.register("diamond_zweihander",
