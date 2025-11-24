@@ -43,7 +43,7 @@ public class FAFItemModelProvider extends ItemModelProvider {
         handheldItem(FAFItems.DIAMOND_DAGGER);
         handheldItem(FAFItems.DIAMOND_SAI);
         handheldItem(FAFItems.DIAMOND_KATANA);
-        handheldItem(FAFItems.DIAMOND_FRYING_PAN);
+        basicItem(FAFItems.DIAMOND_FRYING_PAN.get());
         handheldItem(FAFItems.DIAMOND_SICKLE);
         handheldItem(FAFItems.DIAMOND_BAT);
     }

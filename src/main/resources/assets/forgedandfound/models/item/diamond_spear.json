@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "forgedandfound:item/diamond_spear_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "forgedandfound:item/diamond_spear_item"
+    },
+    "ground": {
+      "parent": "forgedandfound:item/diamond_spear_item"
+    },
+    "fixed": {
+      "parent": "forgedandfound:item/diamond_spear_item"
+    }
+  }
+}
