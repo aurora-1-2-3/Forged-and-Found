@@ -75,6 +75,6 @@ public class FAFItems {
     // Zweihander
     public static final DeferredItem<ZweihanderItem> DIAMOND_ZWEIHANDER = REGISTRY.register("diamond_zweihander",
             () -> new ZweihanderItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(ZweihanderItem.createAttributes(Tiers.DIAMOND, 7, -5f, 3, 0.5D)), 0.75D));
+                    .attributes(ZweihanderItem.createAttributes(Tiers.DIAMOND, 7, -3.9f, 3, 0.5D)), 0.75D));
 
 }

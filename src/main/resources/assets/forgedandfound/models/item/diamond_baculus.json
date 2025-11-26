@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/generated",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "forgedandfound:item/diamond_baculus_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "forgedandfound:item/diamond_baculus_item"
+    },
+    "ground": {
+      "parent": "forgedandfound:item/diamond_baculus_item"
+    },
+    "fixed": {
+      "parent": "forgedandfound:item/diamond_baculus_item"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "forgedandfound:item/diamond_spear_item"
+		"layer0": "forgedandfound:item/diamond_zweihander_item"
 	}
 }
