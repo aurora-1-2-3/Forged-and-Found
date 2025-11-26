@@ -40,12 +40,36 @@ public class FAFItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // code shit here
+        handheldItem(FAFItems.IRON_DAGGER);
+        handheldItem(FAFItems.GOLD_DAGGER);
         handheldItem(FAFItems.DIAMOND_DAGGER);
+        handheldItem(FAFItems.NETHERITE_DAGGER);
+
+        handheldItem(FAFItems.IRON_SAI);
+        handheldItem(FAFItems.GOLD_SAI);
         handheldItem(FAFItems.DIAMOND_SAI);
+        handheldItem(FAFItems.NETHERITE_SAI);
+
+        handheldItem(FAFItems.IRON_KATANA);
+        handheldItem(FAFItems.GOLD_KATANA);
         handheldItem(FAFItems.DIAMOND_KATANA);
+        handheldItem(FAFItems.NETHERITE_KATANA);
+
+        basicItem(FAFItems.IRON_FRYING_PAN.get());
+        basicItem(FAFItems.GOLD_FRYING_PAN.get());
         basicItem(FAFItems.DIAMOND_FRYING_PAN.get());
+        basicItem(FAFItems.NETHERITE_FRYING_PAN.get());
+
+        handheldItem(FAFItems.IRON_SICKLE);
+        handheldItem(FAFItems.GOLD_SICKLE);
         handheldItem(FAFItems.DIAMOND_SICKLE);
+        handheldItem(FAFItems.NETHERITE_SICKLE);
+
+        handheldItem(FAFItems.IRON_BAT);
+        handheldItem(FAFItems.GOLD_BAT);
         handheldItem(FAFItems.DIAMOND_BAT);
+        handheldItem(FAFItems.NETHERITE_BAT);
+
     }
 
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {

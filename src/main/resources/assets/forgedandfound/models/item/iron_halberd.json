@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/generated",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "forgedandfound:item/iron_halberd_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "forgedandfound:item/iron_halberd_item"
+    },
+    "ground": {
+      "parent": "forgedandfound:item/iron_halberd_item"
+    },
+    "fixed": {
+      "parent": "forgedandfound:item/iron_halberd_item"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/generated",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "forgedandfound:item/gold_kalix_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "forgedandfound:item/gold_kalix_item"
+    },
+    "ground": {
+      "parent": "forgedandfound:item/gold_kalix_item"
+    },
+    "fixed": {
+      "parent": "forgedandfound:item/gold_kalix_item"
+    }
+  }
+}
