@@ -25,7 +25,7 @@ public class FAFCreativeModeTabs {
                         output.accept(FAFItems.DIAMOND_DAGGER);
                         output.accept(FAFItems.NETHERITE_DAGGER);
 
-                        output.accept(FAFItems.IRON_SICKLE);
+                        /*output.accept(FAFItems.IRON_SICKLE);
                         output.accept(FAFItems.GOLD_SICKLE);
                         output.accept(FAFItems.DIAMOND_SICKLE);
                         output.accept(FAFItems.NETHERITE_SICKLE);
@@ -88,7 +88,7 @@ public class FAFCreativeModeTabs {
                         output.accept(FAFItems.IRON_ZWEIHANDER);
                         output.accept(FAFItems.GOLD_ZWEIHANDER);
                         output.accept(FAFItems.DIAMOND_ZWEIHANDER);
-                        output.accept(FAFItems.NETHERITE_ZWEIHANDER);
+                        output.accept(FAFItems.NETHERITE_ZWEIHANDER);*/
 
                     }).build());
 

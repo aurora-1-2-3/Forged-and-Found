@@ -13,16 +13,16 @@ public class FAFItems {
     // DAGGER
     public static final DeferredItem<DaggerItem> IRON_DAGGER = REGISTRY.register("iron_dagger",
             () -> new DaggerItem(Tiers.IRON, new Item.Properties()
-                    .attributes(DaggerItem.createAttributes(Tiers.IRON, 1, -1.5f, -3))));
+                    .attributes(DaggerItem.createAttributes(Tiers.IRON, 1, -1.5f, -1))));
     public static final DeferredItem<DaggerItem> GOLD_DAGGER = REGISTRY.register("gold_dagger",
             () -> new DaggerItem(Tiers.GOLD, new Item.Properties()
-                    .attributes(DaggerItem.createAttributes(Tiers.GOLD, 1, -1.5f, -3))));
+                    .attributes(DaggerItem.createAttributes(Tiers.GOLD, 1, -1.5f, -1))));
     public static final DeferredItem<DaggerItem> DIAMOND_DAGGER = REGISTRY.register("diamond_dagger",
             () -> new DaggerItem(Tiers.DIAMOND, new Item.Properties()
-                    .attributes(DaggerItem.createAttributes(Tiers.DIAMOND, 1, -1.5f, -3))));
+                    .attributes(DaggerItem.createAttributes(Tiers.DIAMOND, 1, -1.5f, -1))));
     public static final DeferredItem<DaggerItem> NETHERITE_DAGGER = REGISTRY.register("netherite_dagger",
             () -> new DaggerItem(Tiers.NETHERITE, new Item.Properties()
-                    .attributes(DaggerItem.createAttributes(Tiers.NETHERITE, 1, -1.5f, -3))));
+                    .attributes(DaggerItem.createAttributes(Tiers.NETHERITE, 1, -1.5f, -1))));
 
 
     // BACULUS
