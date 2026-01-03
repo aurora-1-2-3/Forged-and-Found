@@ -31,4 +31,4 @@ src/generated/resources/.cache
 /src/main/resources/assets/forgedandfound/textures/item/e/
 /src/main/resources/assets/forgedandfound/textures/mob_effect/e/
 /src/main/resources/assets/forgedandfound/lang/e/
-/src/main/java/net/aurora/e/
+/src/main/java/net/aurora/e/*
